@@ -209,8 +209,8 @@ Os erros sempre seguem o mesmo formato:
 ### 1. Instalar
 
 ```bash
-git clone https://github.com/MarceloJael/imersao-arq-soft-ia.git
-cd imersao-arq-soft-ia
+git clone https://github.com/MarceloJael/url-shortener.git
+cd url-shortener
 corepack enable
 pnpm install
 ```
