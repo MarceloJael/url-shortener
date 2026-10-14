@@ -273,19 +273,6 @@ Dockerfile              # imagem usada pelo ECS
 
 ---
 
-## 🛣️ Próximos passos
-
-Ideias para continuar estudando:
-
-- [ ] **Cache de leitura no Redis** para o redirect (cache-aside com TTL) e comparar a latência antes e depois
-- [ ] **Rate limiting** por IP no `POST /api/shorten`
-- [ ] **Analytics de cliques** com fila assíncrona, trocando o 301 por 302
-- [ ] **Links com expiração** usando índice TTL do MongoDB
-- [ ] **Testes de carga** com k6 para observar o autoscaling do ECS
-- [ ] **Alocação de IDs em blocos** (cada instância reserva N IDs com `INCRBY`) para reduzir as idas ao Redis
-
----
-
 <div align="center">
 
 Feito com ☕ e muitos diagramas, para aprender arquitetura de sistemas na prática.
